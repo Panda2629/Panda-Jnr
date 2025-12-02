@@ -1,19 +1,21 @@
-# WhatsApp Channel Join Page
+# WhatsApp Channel Landing Page
 
-A simple, clean, mobile-friendly landing page that redirects users to the official WhatsApp channel:
+A modern, responsive landing page for your WhatsApp channel.
 
-👉 **https://chat.whatsapp.com/Loep9UtliNbGl1NQxXSMLk**
+## ✅ Features
 
-The page includes:
-- White background
-- A top "Join WhatsApp Channel" tab
-- A center card with description
-- A Join button that redirects to WhatsApp
-- Auto-generated QR code for easy joining
-- Fully responsive design
-- Works perfectly when deployed on Vercel
+- Animated gradient background  
+- Top “Join WhatsApp Channel” tab  
+- Center card with logo and shadow  
+- Large, animated “Join Now” button  
+- Auto-generated QR code  
+- Channel bio preview with clickable link  
+- Footer with copyright © 2025 Pearn9ja and Privacy Policy  
+- Fully responsive (desktop and mobile)  
+- Ready for deployment on Vercel
 
----
+## 🔗 WhatsApp Channel Link
 
-## 🚀 Live Demo
-(Replace this with your Vercel link after deploying)
+[Join Our WhatsApp Channel](https://chat.whatsapp.com/Loep9UtliNbGl1NQxXSMLk)
+
+## 📂 Project Structure
