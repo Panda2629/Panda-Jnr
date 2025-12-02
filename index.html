@@ -3,18 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Join Our WhatsApp Channel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
+    /* Gradient Background */
     body {
       margin: 0;
-      background: white;
       font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #25D366, #128C7E);
+      color: #fff;
       text-align: center;
     }
 
-    /* Top Join Tab */
+    /* Top Tab */
     .top-tab {
-      background: #25D366;
+      background: rgba(0,0,0,0.2);
       color: white;
       padding: 15px;
       font-size: 18px;
@@ -25,103 +28,118 @@
 
     /* Card */
     .card {
-      max-width: 450px;
-      background: #ffffff;
-      margin: 40px auto;
+      max-width: 480px;
+      margin: 50px auto;
       padding: 30px;
-      border-radius: 18px;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+      background: rgba(255,255,255,0.95);
+      border-radius: 20px;
+      color: #333;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      text-align: center;
       animation: fadeIn 0.8s ease-in-out;
     }
 
-    /* Logo */
     .logo {
-      width: 110px;
-      height: 110px;
+      width: 100px;
+      height: 100px;
       border-radius: 50%;
-      margin-bottom: 15px;
       border: 3px solid #25D366;
+      margin-bottom: 20px;
     }
 
-    /* Header text */
     h2 {
       margin: 10px 0;
-      font-size: 26px;
-      color: #222;
+      font-size: 28px;
     }
 
     p {
       font-size: 16px;
-      color: #555;
-      line-height: 1.6;
+      line-height: 1.5;
     }
 
-    /* Animated Join Button */
+    /* Join Button */
     .join-btn {
       background: #25D366;
       color: white;
-      padding: 15px 25px;
+      padding: 15px 30px;
       font-size: 20px;
       border: none;
-      border-radius: 12px;
+      border-radius: 15px;
       cursor: pointer;
-      width: 100%;
       margin-top: 20px;
-      transition: transform 0.2s, box-shadow 0.2s;
+      width: 100%;
+      transition: 0.3s;
     }
 
     .join-btn:hover {
-      transform: scale(1.04);
-      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
     }
 
-    /* QR Code section */
+    /* QR Code */
     .qr-box {
       margin-top: 25px;
     }
 
     .qr-box img {
-      width: 190px;
-      height: 190px;
-      border-radius: 10px;
-      border: 2px solid #eaeaea;
+      width: 180px;
+      height: 180px;
+      border-radius: 12px;
+      border: 2px solid #ccc;
     }
 
-    /* Fade-in animation */
+    /* Channel Bio */
+    .bio-section {
+      margin-top: 25px;
+      background: #f1f1f1;
+      color: #333;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 14px;
+      color: #fff;
+    }
+
+    a.privacy {
+      color: #fff;
+      text-decoration: underline;
+      margin-left: 10px;
+    }
+
+    /* Fade-in Animation */
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
     }
 
-    footer {
-      margin-top: 40px;
-      padding: 20px;
-      font-size: 14px;
-      color: #666;
+    @media (max-width: 500px) {
+      .card { margin: 30px 15px; }
+      .join-btn { font-size: 18px; padding: 12px; }
     }
   </style>
 </head>
 
 <body>
 
-  <!-- JOIN TAB -->
+  <!-- Top Tab -->
   <a class="top-tab" href="https://chat.whatsapp.com/Loep9UtliNbGl1NQxXSMLk" target="_blank">
     Join WhatsApp Channel
   </a>
 
-  <!-- MAIN CARD -->
+  <!-- Main Card -->
   <div class="card">
-
-    <!-- Logo (replace the image URL anytime) -->
-    <img class="logo" src="https://via.placeholder.com/110" alt="Channel Logo">
-
+    <img class="logo" src="https://via.placeholder.com/100" alt="Channel Logo">
     <h2>Join Our WhatsApp Channel</h2>
-    <p>
-      Get instant updates, announcements, news, and premium content.  
-      Tap the button below or scan the QR code to join instantly.
-    </p>
+    <p>Stay updated with announcements, events, and important news. Click below or scan the QR code to join instantly.</p>
 
-    <!-- Animated Join Button -->
+    <!-- Join Button -->
     <a href="https://chat.whatsapp.com/Loep9UtliNbGl1NQxXSMLk" target="_blank">
       <button class="join-btn">Join Now</button>
     </a>
@@ -131,19 +149,25 @@
       <h3>Scan to Join</h3>
       <img id="qrCode" src="" alt="QR Code">
     </div>
+
+    <!-- Channel Bio -->
+    <div class="bio-section">
+      <strong>Channel Bio Preview:</strong><br>
+      Welcome to our WhatsApp channel! Get exclusive updates, news, and announcements.  
+      <a href="https://chat.whatsapp.com/Loep9UtliNbGl1NQxXSMLk" target="_blank">Join here</a>
+    </div>
   </div>
 
+  <!-- Footer -->
   <footer>
-    © 2025 Your Brand — All Rights Reserved
+    &copy; 2025 Pearn9ja. All rights reserved.  
+    <a class="privacy" href="#">Privacy Policy</a>
   </footer>
 
   <!-- QR Code Script -->
   <script>
     const link = "https://chat.whatsapp.com/Loep9UtliNbGl1NQxXSMLk";
-    const qrUrl =
-      "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" +
-      encodeURIComponent(link);
-
+    const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" + encodeURIComponent(link);
     document.getElementById("qrCode").src = qrUrl;
   </script>
 
