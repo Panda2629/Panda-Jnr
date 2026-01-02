@@ -15,7 +15,7 @@ A responsive landing page for your WhatsApp and Telegram channels with QR codes,
 
 ## 🔗 Channel Links
 
-- WhatsApp: [https://chat.whatsapp.com/Loep9UtliNbGl1NQxXSMLk](https://chat.whatsapp.com/Loep9UtliNbGl1NQxXSMLk)  
+- WhatsApp: [[https://chat.whatsapp.com/Loep9UtliNbGl1NQxXSMLk](https://chat.whatsapp.com/L2alrNSkio1Bg3ra1Y0KY3)] 
 - Telegram: [https://t.me/vendor_platform]([https://t.me/vendor_platform])
 
 ## 📂 Project Structure
